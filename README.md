@@ -1,3 +1,6 @@
+---
+---
+
 # 🏆 Playdate Achievements
 
 _An open achievement standard for the Playdate console._
@@ -22,7 +25,17 @@ Of course, games may also present their earned achievements themselves. Addition
 
 It’s all about the games. Here’s a (non-comprehensive) list of games that award Playdate Achievements. Made your own? [Add it to the list!](https://github.com/PlaydateSquad/pd-achievements#contributing)
 
-<a href="https://play.date/games/bona-fido/">
+<div class="game-grid">
+	{% for game in site.data.games %}
+	<div class="game">
+		<a href="{{ game.url }}">
+			<img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" width="400"/>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+
+<!--a href="https://play.date/games/bona-fido/">
 	<img src="https://media-cdn.play.date/media/games/374881/IMG_3666.gif" alt="Bona Fido" title="Bona Fido" width="400"/>
 </a>
 <a href="https://play.date/games/cranky-cove/">
@@ -39,7 +52,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 </a>
 <a href="https://play.date/games/xtris/">
 	<img src="https://media-cdn.play.date/media/games/375945/web-cover-small.png" alt="Xtris" title="Xtris" width="400"/>
-</a>
+</a-->
 
 ## Made a Game for Playdate?
 
@@ -53,6 +66,13 @@ Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achi
 
 ## FAQ
 
+{% for faq in site.data.faq %}
+
+<details><summary>{{ faq.question }}</summary>{{ faq.answer }}</details>
+
+{% endfor %}
+
+<!--
 <details><summary><b>What games support it?</b></summary>
 
 You scrolled too fast! [Check out the growing list of games](#show-me-the-games) that offer Playdate Achievements above.
@@ -116,5 +136,6 @@ We can’t guarantee all ideas will be accepted, but we absolutely want to hear 
 Fix a bug? Have feature ideas? Want to help make this page awesome? Regardless of your background and skill set, we welcome members of the community to help us make Playdate Achievements the best it can be. Peruse the [`pd-achievements`](https://github.com/PlaydateSquad/pd-achievements) repo on GitHub and [join the discussion in the Playdate Squad Discord](https://discord.com/channels/675983554655551509/1213250459851292713) to get involved.
 
 </details>
+-->
 
 _Playdate is a registered trademark of [Panic](https://panic.com/). Playdate Achievements is a community project, and is not affiliated with, endorsed by, or sponsored by Panic (but we’re confident they think it’s cool)._
