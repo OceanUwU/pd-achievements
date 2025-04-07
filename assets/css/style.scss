@@ -11,14 +11,15 @@ $footer-color: #212223;
 html,
 body {
   background-color: $bg-color;
+}
+
+.markdown-body {
   color: $font-color;
   font-size: 22px;
   font-weight: normal;
   line-height: 1.8em;
   font-family: Poppins, Helvetica, sans-serif;
-}
 
-.markdown-body {
   a {
     color: $link-color;
     text-decoration: underline;
