@@ -98,7 +98,9 @@ body {
       background-color: white;
       padding: 0.25em;
       min-height: 90px;
-      vertical-align: middle;
+      display: flex;
+      justify-content: center; /* Align horizontal */
+      align-items: center;
     }
   }
 
@@ -108,11 +110,6 @@ body {
     height: auto;
     left: 0;
     background-color: $footer-color;
-
-    // > * {
-    //   max-width: 1012px;
-    //   margin: auto;
-    // }
   }
 
   .markdown-body {
