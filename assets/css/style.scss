@@ -108,7 +108,7 @@ body {
   .game-grid {
     display: grid;
     gap: 24px;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     .game {
       display: inline-block;
       img {
