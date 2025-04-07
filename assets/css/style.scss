@@ -87,6 +87,13 @@ body {
         }
       }
     }
+
+    em {
+      text-align: center;
+      color: $bg-color;
+      background-color: white;
+      padding: 0.25em;
+    }
   }
 
   .section#faq {
