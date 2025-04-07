@@ -119,7 +119,8 @@ body {
     grid-template-columns: auto auto;
     .game {
       display: inline-block;
-      img {
+      color: rgba(255, 255, 255, 0.5) // author
+        img {
         border: solid 8px white;
         border-radius: 12px;
         box-sizing: border-box;
@@ -134,7 +135,7 @@ body {
         font-size: 1.5em;
       }
       // raised card with shadow on hover
-      a:active {
+      a:hover {
         img {
           transition: all 0.2s ease-out;
           margin-top: -0.5em;
