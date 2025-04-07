@@ -40,6 +40,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 <div class="game">
 	<a href="{{ game.url }}">
 		<img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" />
+		**{% game.name %}**
 	</a>
 </div>
 
