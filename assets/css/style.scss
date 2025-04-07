@@ -114,16 +114,18 @@ body {
         width: 100px;
         height: 110px;
         background-image: url("../images/banner-tail-left.png");
+        background-size: contain;
       }
       &:after {
         content: "";
         display: block;
         position: absolute;
         top: -50%;
-        right: 104px;
+        right: -104px;
         width: 100px;
         height: 110px;
         background-image: url("../images/banner-tail-left.png");
+        background-size: contain;
       }
     }
   }
