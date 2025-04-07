@@ -1,12 +1,18 @@
+<div class="section" id="hero">
+
 # 🏆 Playdate Achievements
 
 _An open achievement standard for the Playdate console._
 
-Playdate Achievements is a community project establishing an open standard for achievements in [Playdate](https://play.date)™ games. Playdate is fun! Games on Playdate are fun! Achievements in games on Playdate are fun! Having a standard ensures a consistent experience for players, and makes it possible to view achievements earned across games in one place.
-
 1. Play Playdate games!
 2. Earn achievements!
 3. View them in your Trophy Case!
+
+Playdate Achievements is a community project establishing an open standard for achievements in [Playdate](https://play.date)™ games. Playdate is fun! Games on Playdate are fun! Achievements in games on Playdate are fun! Having a standard ensures a consistent experience for players, and makes it possible to view achievements earned across games in one place.
+
+</div>
+
+<div class="section">
 
 ## Everything On Display
 
@@ -35,17 +41,20 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 {% endfor %}
 
-</div>
+</div> <!-- game grid -->
+</div> <!-- section -->
 
 ## Made a Game for Playdate?
 
-Add some achievements! The Playdate Achievements framework makes it quick and easy to add achievements to your own games. [Check out the Getting Started Guide](https://github.com/PlaydateSquad/pd-achievements/blob/main/README.md) in the [`pd-achievements` repo](https://github.com/PlaydateSquad/pd-achievements), which provides simple instructions along with everything you need to:
+The Playdate Achievements framework makes it quick and easy to add achievements to your own games! [Check out the Getting Started Guide](https://github.com/PlaydateSquad/pd-achievements/blob/main/README.md) in the [`pd-achievements` repo](https://github.com/PlaydateSquad/pd-achievements), which provides simple instructions along with everything you need to:
 
-1. Grant achievements that integrate with Trophy Case and other viewer apps.
-2. Present toast notifications to players when they earn achievements. (optional)
-3. Display an in-game viewer so players can see the achievements they’ve earned in your game. (optional)
+1. Grant achievements that integrate with Trophy Case.
+2. Notify players when they earn achievements. _(optional)_
+3. Display an in-game achievements viewer. _(optional)_
 
 Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achievements#contributing) when you’re finished!
+
+<div class="section" id="faq">
 
 ## FAQ
 
@@ -55,4 +64,8 @@ Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achi
 
 {% endfor %}
 
+<div class="section" id="footer">
+
 _Playdate is a registered trademark of [Panic](https://panic.com/). Playdate Achievements is a community project, and is not affiliated with, endorsed by, or sponsored by Panic (but we’re confident they think it’s cool)._
+
+</div>
