@@ -105,6 +105,22 @@ body {
       justify-content: center;
       align-items: center;
       box-shadow: 0 16px rgba(0, 0, 0, 0.25);
+      :before {
+        position: absolute;
+        top: 0;
+        left: -104px;
+        width: 100px;
+        height: 110px;
+        background-image: url("/assets/images/banner-tail-left.png");
+      }
+      :after {
+        position: absolute;
+        top: 0;
+        right: 104px;
+        width: 100px;
+        height: 110px;
+        background-image: url("/assets/images/banner-tail-left.png");
+      }
     }
   }
 
@@ -164,7 +180,7 @@ body {
         font-size: 6em;
         line-height: 1em;
         font-family: "Poppins", "Helvetica", sans-serif;
-        font-weight: 900;
+        font-weight: 800;
         font-style: normal;
       }
     }
