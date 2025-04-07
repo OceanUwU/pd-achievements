@@ -68,7 +68,6 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 {% endfor %}
 
 </div> <!-- game grid -->
-</div> <!-- games section -->
 
 ### Made a Game for Playdate?
 
@@ -79,6 +78,8 @@ The Playdate Achievements framework makes it quick and easy to add achievements 
 3. Display an in-game achievements viewer. _(optional)_
 
 Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achievements#contributing) when you’re finished!
+
+</div> <!-- games section -->
 
 <div class="section" id="faq">
 <div class="container-lg px-3">
