@@ -4,9 +4,9 @@
 
 _An open achievement standard for the Playdate console._
 
-1. Play Playdate games!
-2. Earn achievements!
-3. View them in your Trophy Case!
+1. _Play_ Playdate games!
+2. _Earn_ achievements!
+3. _View_ them in your Trophy Case!
 
 Playdate Achievements is a community project establishing an open standard for achievements in [Playdate](https://play.date)™ games. Playdate is fun! Games on Playdate are fun! Achievements in games on Playdate are fun! Having a standard ensures a consistent experience for players, and makes it possible to view achievements earned across games in one place.
 
