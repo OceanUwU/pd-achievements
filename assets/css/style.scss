@@ -105,6 +105,17 @@ body {
     }
   }
 
+  .game-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-rows: auto auto;
+
+    .game {
+      border: solid 8px white;
+      border-radius: 12px;
+    }
+  }
+
   .section#faq {
     position: absolute;
     width: 100%;
