@@ -44,9 +44,9 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 </div> <!-- game grid -->
 </div> <!-- section -->
 
-## Made a Game for Playdate?
+### Made a Game for Playdate?
 
-The Playdate Achievements framework makes it quick and easy to add achievements to your own games! [Check out the Getting Started Guide](https://github.com/PlaydateSquad/pd-achievements/blob/main/README.md) in the [`pd-achievements` repo](https://github.com/PlaydateSquad/pd-achievements), which provides simple instructions along with everything you need to:
+The Playdate Achievements framework makes it quick and easy to add achievements to your game! [Check out the Getting Started Guide](https://github.com/PlaydateSquad/pd-achievements/blob/main/README.md) in the [`pd-achievements` repo](https://github.com/PlaydateSquad/pd-achievements), which provides simple instructions along with everything you need to:
 
 1. Grant achievements that integrate with Trophy Case.
 2. Notify players when they earn achievements. _(optional)_
