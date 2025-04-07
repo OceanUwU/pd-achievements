@@ -15,7 +15,7 @@ body {
 
 .markdown-body {
   color: $font-color;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
   line-height: 1.8em;
   font-family: Poppins, Helvetica, sans-serif;
@@ -56,15 +56,21 @@ body {
     font-size: 1em;
   }
 
+  img {
+    background-color: none;
+  }
+
   .section {
   }
 
   #hero {
     li {
+      margin: 1em 0;
       font-size: 1.5em;
       font-weight: bold;
       em {
         color: $link-color;
+        font-style: normal;
       }
     }
   }
