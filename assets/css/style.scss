@@ -88,7 +88,11 @@ body {
       }
     }
 
-    em {
+    h1 {
+      display: none;
+    }
+
+    h3 {
       text-align: center;
       color: $bg-color;
       background-color: white;

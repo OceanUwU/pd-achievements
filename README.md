@@ -6,7 +6,7 @@
 	<img src="./assets/images/trophy-hero.png" width="620"/>
 </div>
 
-_An open achievement standard for the Playdate console._
+### An open achievement standard for the Playdate console.
 
 1. _Play_ Playdate games!
 2. _Earn_ achievements!
