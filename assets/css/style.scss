@@ -57,7 +57,7 @@ body {
   }
 
   img {
-    background-color: none;
+    background-color: none !important;
   }
 
   .section {
@@ -84,8 +84,9 @@ body {
     left: 0;
     background-color: $footer-color;
 
-    * {
+    > * {
       max-width: 1012px;
+      margin: auto;
     }
   }
 
