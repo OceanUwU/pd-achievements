@@ -111,6 +111,7 @@ body {
     grid-template-rows: auto auto;
 
     .game {
+      display: inline-block;
       border: solid 8px white;
       border-radius: 12px;
     }
