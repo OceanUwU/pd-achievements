@@ -46,7 +46,7 @@ Of course, games may also present their earned achievements themselves. Addition
 
 </div> <!-- trophy case section -->
 
-<div class="section">
+<div class="section" id="games">
 
 ## Show Me the Games!
 
