@@ -126,7 +126,7 @@ body {
           color: $link-color;
           font-style: normal;
         }
-        ::marker {
+        &::marker {
           color: $link-color;
         }
       }
