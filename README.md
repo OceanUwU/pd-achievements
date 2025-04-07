@@ -65,7 +65,7 @@ Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achi
 
 {% endfor %}
 
-<div class="section" id="footer">
+<div id="footer">
 
 _Playdate is a registered trademark of [Panic](https://panic.com/). Playdate Achievements is a community project, and is not affiliated with, endorsed by, or sponsored by Panic (but we’re confident they think it’s cool)._
 
