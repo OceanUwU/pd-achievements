@@ -30,7 +30,7 @@ Playdate Achievements is a community project establishing an open standard for a
 	</div>
 </div>
 
-</div>
+</div> <!-- hero section -->
 
 <div class="section">
 
@@ -43,6 +43,10 @@ Playdate Achievements is a community project establishing an open standard for a
 </div>
 
 Of course, games may also present their earned achievements themselves. Additionally, the open standard makes it possible for others to create dedicated achievement viewer apps in the future.
+
+</div> <!-- trophy case section -->
+
+<div class="section">
 
 ## Show Me the Games!
 
@@ -64,7 +68,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 {% endfor %}
 
 </div> <!-- game grid -->
-</div> <!-- section -->
+</div> <!-- games section -->
 
 ### Made a Game for Playdate?
 
@@ -88,3 +92,4 @@ Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achi
 {% endfor %}
 
 </div>
+</div> <!-- faq section -->
