@@ -99,8 +99,9 @@ body {
       padding: 0.25em;
       min-height: 90px;
       display: flex;
-      justify-content: center; /* Align horizontal */
+      justify-content: center;
       align-items: center;
+      box-shadow: 0 16px rgba(0, 0, 0, 0.25);
     }
   }
 
@@ -125,5 +126,8 @@ body {
 
   .footer {
     opacity: 0.5;
+    a {
+      color: $font-color;
+    }
   }
 }

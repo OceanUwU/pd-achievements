@@ -30,7 +30,7 @@ Of course, games may also present their earned achievements themselves. Addition
 
 ## Show Me the Games!
 
-It’s all about the games. Here’s a (non-comprehensive) list of games that award Playdate Achievements. Made your own? [Add it to the list!](https://github.com/PlaydateSquad/pd-achievements#contributing)
+It’s all about the games. Here’s a (non-comprehensive) list of games that award Playdate Achievements. Made your own? [Add it to the list!](#made-a-game-for-playdate)
 
 <div class="game-grid">
 
