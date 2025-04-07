@@ -109,13 +109,13 @@ body {
     display: grid;
     gap: 24px;
     grid-template-rows: auto auto;
-
     .game {
       display: inline-block;
       img {
         border: solid 8px white;
         border-radius: 12px;
       }
+    }
   }
 
   .section#faq {
