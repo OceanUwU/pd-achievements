@@ -2,6 +2,10 @@
 
 # 🏆 Playdate Achievements
 
+<div align="center">
+	<img src="./assets/images/trophy-hero.png" width="620"/>
+</div>
+
 _An open achievement standard for the Playdate console._
 
 1. _Play_ Playdate games!
