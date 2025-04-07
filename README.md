@@ -19,7 +19,7 @@ Playdate Achievements is a community project establishing an open standard for a
 {% assign achievementCount = achievementCount | plus: game.achievementCount %}
 {% endfor %}
 
-<div class="stat-grid">
+<div class="stat-grid grid">
 	<div class="stat">
 	<div class="number">{{ site.data.games | size }}</div>
 		Games to Play
@@ -48,7 +48,7 @@ Of course, games may also present their earned achievements themselves. Addition
 
 It’s all about the games. Here’s a (non-comprehensive) list of games that award Playdate Achievements. Made your own? [Add it to the list!](#made-a-game-for-playdate)
 
-<div class="game-grid">
+<div class="game-grid grid">
 
 {% assign sortedGames = site.data.games | sort: 'name' %}
 {% for game in sortedGames %}

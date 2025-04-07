@@ -109,21 +109,21 @@ body {
         content: "";
         display: block;
         position: absolute;
-        top: 0;
+        top: -50%;
         left: -104px;
         width: 100px;
         height: 110px;
-        background-image: url("/assets/images/banner-tail-left.png");
+        background-image: url("./assets/images/banner-tail-left.png");
       }
       &:after {
         content: "";
         display: block;
         position: absolute;
-        top: 0;
+        top: -50%;
         right: 104px;
         width: 100px;
         height: 110px;
-        background-image: url("/assets/images/banner-tail-left.png");
+        background-image: url("./assets/images/banner-tail-left.png");
       }
     }
   }
@@ -136,11 +136,14 @@ body {
     }
   }
 
-  .game-grid {
+  .grid {
     margin-top: 2em;
     display: grid;
     gap: 24px;
     grid-template-columns: auto auto;
+  }
+
+  .grid {
     .game {
       display: inline-block;
       color: rgba(255, 255, 255, 0.5); // author
@@ -171,12 +174,7 @@ body {
         }
       }
     }
-  }
 
-  .stat-grid {
-    display: grid;
-    gap: 24px;
-    grid-template-columns: auto auto;
     .stat {
       font-weight: bold;
       .number {
