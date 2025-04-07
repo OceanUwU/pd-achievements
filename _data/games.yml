@@ -1,10 +1,10 @@
 # - name: Your Game
+#   author: Your name or alias
 #   url: https://yourgame.com # The download page for your game on itch.io, catalog, or elsewhere
 #   image: ./assets/images/games/your-game.png # OR: a hosted URL (e.g. a catalog image)
+#   achievementCount: 0 # The number of Playdate Achievements in your game
 #   # The following fields are currently undisplayed, but give us flexibility in the future.
 #   description: A brief, one sentence description of your game.
-#   author: Your name or alias
-#   achievementCount: 0 # The number of Playdate Achievements in your game
 
 - name: Bona Fido
   url: https://play.date/games/bona-fido/
