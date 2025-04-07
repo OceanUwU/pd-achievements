@@ -3,7 +3,7 @@
 # 🏆 Playdate Achievements
 
 <div align="center">
-	<img src="./assets/images/trophy-hero.png" width="620"/>
+	<img src="./assets/images/trophy-hero-alt.png" width="600"/>
 </div>
 
 ##### An open achievement standard for the Playdate console.
