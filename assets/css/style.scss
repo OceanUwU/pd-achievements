@@ -135,8 +135,9 @@ body {
 
   .section#games {
     ol {
-      em {
+      li em {
         opacity: 0.5; // Used for "(optional)" callouts
+        font-style: normal;
       }
     }
   }
