@@ -112,9 +112,10 @@ body {
 
     .game {
       display: inline-block;
-      border: solid 8px white;
-      border-radius: 12px;
-    }
+      img {
+        border: solid 8px white;
+        border-radius: 12px;
+      }
   }
 
   .section#faq {
