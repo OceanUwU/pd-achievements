@@ -85,6 +85,9 @@ body {
           color: $link-color;
           font-style: normal;
         }
+        ::marker {
+          color: $link-color;
+        }
       }
     }
 
@@ -119,8 +122,8 @@ body {
     grid-template-columns: auto auto;
     .game {
       display: inline-block;
-      color: rgba(255, 255, 255, 0.5) // author
-        img {
+      color: rgba(255, 255, 255, 0.5); // author
+      img {
         border: solid 8px white;
         border-radius: 12px;
         box-sizing: border-box;
@@ -129,15 +132,16 @@ body {
       a:hover,
       a:active,
       a:visited {
+        display: inline-block;
         color: $font-color;
         text-decoration: none;
         font-weight: bold;
         font-size: 1.5em;
+        transition: all 0.2s ease-out;
       }
       // raised card with shadow on hover
       a:hover {
         img {
-          transition: all 0.2s ease-out;
           margin-top: -0.5em;
           margin-bottom: 0.5em;
           box-shadow: 0 0.5em rgba(0, 0, 0, 0.25);
