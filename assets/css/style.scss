@@ -137,7 +137,9 @@ body {
         text-decoration: none;
         font-weight: bold;
         font-size: 1.5em;
-        transition: all 0.2s ease-out;
+        img {
+          transition: all 0.2s ease-out;
+        }
       }
       // raised card with shadow on hover
       a:hover {
