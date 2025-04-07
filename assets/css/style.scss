@@ -105,11 +105,11 @@ body {
       justify-content: center;
       align-items: center;
       box-shadow: 0 16px rgba(0, 0, 0, 0.25);
+      margin: 1em 100px;
       &:before {
         content: "";
         display: block;
         position: absolute;
-        margin: 1em 100px;
         top: -50%;
         left: -104px;
         width: 100px;
@@ -121,7 +121,6 @@ body {
         content: "";
         display: block;
         position: absolute;
-        margin: 1em 100px;
         top: -50%;
         right: -104px;
         width: 100px;
