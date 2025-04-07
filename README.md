@@ -55,6 +55,7 @@ The Playdate Achievements framework makes it quick and easy to add achievements 
 Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achievements#contributing) when you’re finished!
 
 <div class="section" id="faq">
+<div class="container-lg">
 
 ## FAQ
 
@@ -68,4 +69,5 @@ Don’t forget to [add it to this page](https://github.com/PlaydateSquad/pd-achi
 
 _Playdate is a registered trademark of [Panic](https://panic.com/). Playdate Achievements is a community project, and is not affiliated with, endorsed by, or sponsored by Panic (but we’re confident they think it’s cool)._
 
+</div>
 </div>
