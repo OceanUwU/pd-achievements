@@ -64,13 +64,15 @@ body {
   }
 
   #hero {
-    li {
+    ul {
       margin: 1em 0;
-      font-size: 1.5em;
-      font-weight: bold;
-      em {
-        color: $link-color;
-        font-style: normal;
+      li {
+        font-size: 1.5em;
+        font-weight: bold;
+        em {
+          color: $link-color;
+          font-style: normal;
+        }
       }
     }
   }
@@ -81,6 +83,10 @@ body {
     height: auto;
     left: 0;
     background-color: $footer-color;
+
+    * {
+      max-width: 1012px;
+    }
   }
 
   .markdown-body {
