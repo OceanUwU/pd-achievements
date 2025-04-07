@@ -14,18 +14,19 @@
 
 Playdate Achievements is a community project establishing an open standard for achievements in [Playdate](https://play.date)™ games. Playdate is fun! Games on Playdate are fun! Achievements in games on Playdate are fun! Having a standard ensures a consistent experience for players, and makes it possible to view achievements earned across games in one place.
 
+{% assign achievementCount = 0 %}
+{% for game in site.data.games %}
+{% assign achievementCount = achievementCount | plus: game.achievementCount %}
+{% endfor %}
+
 <div class="stat-grid">
 	<div class="stat">
-		<span class="number">{{ site.data.games | size }}</span>
-		Games to play
+	<div class="number">{{ site.data.games | size }}</div>
+		Games to Play
 	</div>
 	<div class="stat">
-		{% assign achievementCount = 0 %}
-		{% for game in site.data.games %}
-		  {% assign achievementCount = achievementCount | plus: game.achievementCount %}
-		{% endfor %}
-		<span class="number">{{ achievementCount }}</span>
-		Achievements to earn
+		<div class="number">{{ achievementCount }}</div>
+		Achievements to Earn
 	</div>
 </div>
 
