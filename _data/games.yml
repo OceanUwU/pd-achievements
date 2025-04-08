@@ -25,7 +25,7 @@
 
 - name: Cranky Cove
   url: https://play.date/games/cranky-cove/
-  image: /assets/images/cranky-cove.png
+  image: /assets/images/games/cranky-cove.png
   color: "#6BC2E4"
   description:
   author: Jon Simantov
