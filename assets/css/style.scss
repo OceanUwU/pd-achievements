@@ -172,7 +172,7 @@ body {
   .grid {
     margin: 2em 0;
     display: grid;
-    gap: 24px;
+    gap: 48px;
     grid-template-columns: auto auto;
 
     @media screen and (max-width: $tablet) {
@@ -187,8 +187,6 @@ body {
         border: solid 8px white;
         border-radius: 12px;
         box-sizing: content-box;
-        width: 380px;
-        height: 90px;
         margin-bottom: 0.5em;
       }
       a,
@@ -215,7 +213,7 @@ body {
         font-family: "Poppins", "Helvetica", sans-serif;
         font-weight: 800;
         font-size: 2.5em;
-        line-height: 1em;
+        line-height: 1.25em;
         color: rgba(255, 255, 255, 0.6);
       }
       .title {
@@ -224,6 +222,7 @@ body {
       }
       .author {
         color: rgba(255, 255, 255, 0.6);
+        line-height: 0.9em;
       }
     }
 
