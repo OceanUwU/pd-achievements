@@ -118,11 +118,11 @@ body {
       }
 
       @media screen and (max-width: $tablet) {
+        font-size: 0.75em;
         margin: 1em 24px 3em 24px;
         &:after,
         &:before {
           width: 24px;
-          font-size: 0.75em;
         }
       }
     }
