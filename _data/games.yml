@@ -9,7 +9,7 @@
 
 - name: Bona Fido
   url: https://play.date/games/bona-fido/
-  image: /assets/images/games/bona-fido.png
+  image: .//assets/images/games/bona-fido.png
   color: "#FFE7DE"
   description:
   author: Rae
