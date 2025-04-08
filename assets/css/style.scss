@@ -98,7 +98,7 @@ body {
         content: "";
         display: block;
         position: absolute;
-        top: -50%;
+        top: -25%;
         left: -104px;
         width: 100px;
         height: 110px;
@@ -109,7 +109,7 @@ body {
         content: "";
         display: block;
         position: absolute;
-        top: -50%;
+        top: -25%;
         right: -104px;
         width: 100px;
         height: 110px;
@@ -122,11 +122,11 @@ body {
         margin: 1em 24px 3em 24px;
         &:after {
           width: 24px;
-          left: -28px;
+          right: -28px;
         }
         &:before {
           width: 24px;
-          right: 28px;
+          left: -28px;
         }
       }
     }
