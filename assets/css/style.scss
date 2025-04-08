@@ -22,6 +22,10 @@ body {
   line-height: 1.8em;
   font-family: "Poppins", "Helvetica", sans-serif;
 
+  @media screen and (max-width: $tablet) {
+    font-size: 18px;
+  }
+
   a {
     color: $link-color;
     text-decoration: underline;
