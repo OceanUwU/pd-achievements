@@ -182,6 +182,7 @@ body {
     .game {
       display: inline-block;
       img {
+        display: block;
         border: solid 8px white;
         border-radius: 12px;
         box-sizing: border-box;
@@ -212,6 +213,7 @@ body {
         font-family: "Poppins", "Helvetica", sans-serif;
         font-weight: 800;
         font-size: 2em;
+        color: rgba(255, 255, 255, 0.6);
       }
       .title {
         color: $font-color;
@@ -219,7 +221,7 @@ body {
         font-size: 1.5em;
       }
       .author {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.6);
       }
     }
 

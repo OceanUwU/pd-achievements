@@ -59,9 +59,9 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 <div class="game">
 	<a href="{{ game.url }}">
-		<img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" style="border-color: {{ game.color }}"/>s
-		<div class='title'>{{ game.name }}</div>
+		<img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" style="border-color: {{ game.color }}"/>
 		<div class='count'>{{ game.achievementCount }}</div>
+		<div class='title'>{{ game.name }}</div>
 		<div class='author'>By {{ game.author }}</div>
     </a>
 </div>
