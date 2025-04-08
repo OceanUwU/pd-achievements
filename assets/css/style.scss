@@ -13,6 +13,7 @@ $tablet: 720px;
 html,
 body {
   background-color: $bg-color;
+  width: 100%;
 }
 
 .markdown-body {
@@ -21,6 +22,8 @@ body {
   font-weight: normal;
   line-height: 1.8em;
   font-family: "Poppins", "Helvetica", sans-serif;
+  margin: 0;
+  width: 100%;
 
   @media screen and (max-width: $tablet) {
     font-size: 18px;
@@ -147,6 +150,7 @@ body {
       li {
         font-size: 1.5em;
         font-weight: bold;
+        margin-bottom: 0.5em;
         em {
           color: $link-color;
           font-style: normal;
