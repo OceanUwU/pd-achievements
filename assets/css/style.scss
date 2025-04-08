@@ -8,6 +8,8 @@ $font-color: #ffffff;
 $link-color: #ffc500;
 $footer-color: #212223;
 
+$tablet: 720px;
+
 html,
 body {
   background-color: $bg-color;
@@ -114,6 +116,14 @@ body {
         background-image: url("../images/banner-tail-right.png");
         background-size: contain;
       }
+
+      @media screen and (max-width: $tablet) {
+        &:after,
+        &:before {
+          width: 24px;
+          font-size: 0.75em;
+        }
+      }
     }
 
     ol,
@@ -147,6 +157,10 @@ body {
     display: grid;
     gap: 24px;
     grid-template-columns: auto auto;
+
+    @media screen and (max-width: $tablet) {
+      grid-template-columns: auto;
+    }
 
     .game {
       display: inline-block;
@@ -189,12 +203,6 @@ body {
         font-weight: 800;
         font-style: normal;
       }
-    }
-  }
-
-  @media (max-width: 720px) {
-    .grid {
-      grid-template-columns: auto;
     }
   }
 
