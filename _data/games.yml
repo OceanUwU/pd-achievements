@@ -4,8 +4,7 @@
 #   image: ./assets/images/games/your-game.png
 #   color: A valid CSS color string, e.g. '#123456' to use as a highlight
 #   achievementCount: 0 # The number of Playdate Achievements in your game
-#   # The following fields are currently undisplayed, but give us flexibility in the future.
-#   description: A brief, one sentence description of your game.
+#   description: A brief, one sentence description of your game. (Not currently shown, but may be in the future)
 
 - name: Bona Fido
   url: https://play.date/games/bona-fido/
