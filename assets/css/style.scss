@@ -181,6 +181,7 @@ body {
 
     .game {
       display: inline-block;
+      line-height: 1em;
       img {
         display: block;
         border: solid 8px white;
@@ -188,6 +189,7 @@ body {
         box-sizing: border-box;
         width: 380px;
         height: 90px;
+        margin-bottom: 24px;
       }
       a,
       a:hover,
@@ -212,7 +214,8 @@ body {
         float: right;
         font-family: "Poppins", "Helvetica", sans-serif;
         font-weight: 800;
-        font-size: 2em;
+        font-size: 3em;
+        line-height: 1em;
         color: rgba(255, 255, 255, 0.6);
       }
       .title {
