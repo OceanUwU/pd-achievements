@@ -181,7 +181,7 @@ body {
 
     .game {
       display: inline-block;
-      line-height: 1em;
+      line-height: 1.2em;
       img {
         display: block;
         border: solid 8px white;
@@ -189,7 +189,7 @@ body {
         box-sizing: border-box;
         width: 380px;
         height: 90px;
-        margin-bottom: 24px;
+        margin-bottom: 0.25em;
       }
       a,
       a:hover,
@@ -206,7 +206,7 @@ body {
       a:hover {
         img {
           margin-top: -0.5em;
-          margin-bottom: 0.5em;
+          margin-bottom: 0.75em;
           box-shadow: 0 0.5em rgba(0, 0, 0, 0.25);
         }
       }
