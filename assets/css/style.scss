@@ -177,6 +177,9 @@ body {
 
     @media screen and (max-width: $tablet) {
       grid-template-columns: auto;
+      .game {
+        margin: auto;
+      }
     }
 
     .game {
