@@ -1,49 +1,72 @@
 # - name: Your Game
 #   author: Your name or alias
 #   url: https://yourgame.com # The download page for your game on itch.io, catalog, or elsewhere
-#   image: ./assets/images/games/your-game.png # OR: a hosted URL (e.g. a catalog image)
+#   image: /assets/images/games/your-game.png
+#   color: A valid CSS color string, e.g. '#123456' to use as a highlight
 #   achievementCount: 0 # The number of Playdate Achievements in your game
 #   # The following fields are currently undisplayed, but give us flexibility in the future.
 #   description: A brief, one sentence description of your game.
 
 - name: Bona Fido
   url: https://play.date/games/bona-fido/
-  image: https://media-cdn.play.date/media/games/374881/IMG_3666.gif
+  image: /assets/images/games/bona-fido.png
+  color: "#FFE7DE"
   description:
   author: Rae
-  achievementCount: 12
+  achievementCount: 9
 
 - name: RowBot Rally
   url: https://play.date/games/rowbot-rally/
-  image: https://media-cdn.play.date/media/games/243372/Web_Small.gif
-  description:
-  author: Rae
-  achievementCount: 13
-
-- name: Cranky Cove
-  url: https://play.date/games/cranky-cove/
-  image: https://media-cdn.play.date/media/games/377192/cranky_cove_banner_small_noalpha_6YTos8R.png
-  description:
-  author: Jon Simantov
-  achievementCount: 14
-
-- name: First in… Line?
-  url: https://play.date/games/first-in-line/
-  image: https://media-cdn.play.date/media/games/318634/web_small.gif
-  description:
-  author: Rae
-  achievementCount: 15
-
-- name: HEXA
-  url: https://play.date/games/hexa/
-  image: https://media-cdn.play.date/media/games/345269/web_small.gif
+  image: /assets/images/games/rowbot-rally.png
+  color: "#5DC3E5"
   description:
   author: Rae
   achievementCount: 16
 
+- name: Cranky Cove
+  url: https://play.date/games/cranky-cove/
+  image: /assets/images/cranky-cove.png
+  color: "#6BC2E4"
+  description:
+  author: Jon Simantov
+  achievementCount: 20
+
+- name: First in… Line?
+  url: https://play.date/games/first-in-line/
+  image: /assets/images/games/first-in-line.png
+  color: "#FF005C"
+  description:
+  author: Rae
+  achievementCount: 10
+
+- name: HEXA
+  url: https://play.date/games/hexa/
+  image: /assets/images/games/hexa.png
+  color: "#8977FF"
+  description:
+  author: Rae
+  achievementCount: 17
+
 - name: XTRIS
   url: https://play.date/games/xtris/
-  image: https://media-cdn.play.date/media/games/375945/web-cover-small.png
+  image: /assets/images/games/xtris.png
+  color: "#008751"
   description:
   author: Fletch Makes Stuff
-  achievementCount: 17
+  achievementCount: 20
+
+- name: Lunatrix
+  url: https://play.date/games/lunatrix/
+  image: /assets/images/games/mission-lunatrix.png
+  color: "#B189C0"
+  description:
+  author: Rae
+  achievementCount: 21
+
+- name: Traffic Jam
+  url: https://play.date/games/traffic-jam/
+  image: /assets/images/games/traffic-jam.png
+  color: "#F8C300"
+  description:
+  author: Rae
+  achievementCount: 13
