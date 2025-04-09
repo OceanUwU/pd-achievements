@@ -14,6 +14,7 @@
   image: ./assets/images/games/bona-fido.png
   color: "#FFE7DE"
   achievementCount: 9
+  releaseDate: 01/28/2025
   description:
 
 - title: RowBot Rally
@@ -22,6 +23,7 @@
   image: ./assets/images/games/rowbot-rally.png
   color: "#5DC3E5"
   achievementCount: 16
+  releaseDate: 12/17/2024
   description:
 
 - title: Cranky Cove
@@ -30,6 +32,7 @@
   image: ./assets/images/games/cranky-cove.png
   color: "#6BC2E4"
   achievementCount: 30
+  releaseDate: 02/25/2025
   description:
 
 - title: First in… Line?
@@ -38,6 +41,7 @@
   image: ./assets/images/games/first-in-line.png
   color: "#FF005C"
   achievementCount: 10
+  releaseDate: 06/18/2024
   description:
 
 - title: HEXA
@@ -46,6 +50,7 @@
   image: ./assets/images/games/hexa.png
   color: "#8977FF"
   achievementCount: 17
+  releaseDate: 07/30/2024
   description:
 
 - title: Lunatrix
@@ -54,6 +59,7 @@
   image: ./assets/images/games/mission-lunatrix.png
   color: "#B189C0"
   achievementCount: 21
+  releaseDate: 12/31/2025
   description:
 
 - title: Traffic Jam

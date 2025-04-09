@@ -242,12 +242,10 @@ body {
         line-height: 1em;
       }
 
-      &.badge-soon-released .banner,
-      &.badge-new .banner {
+      &.badge .banner {
         position: relative;
       }
-      &.badge-soon-released .banner::after,
-      &.badge-new .banner::after {
+      &.badge .banner::after {
         color: $transparent;
         display: block;
         position: absolute;
@@ -260,12 +258,20 @@ body {
         border-top-right-radius: $banner-border-radius;
       }
       &.badge-soon-released .banner::after {
-        content: "SOON!"; // for accessibility only; shown rotated in image instead
+        content: "SOON*"; // for accessibility only; shown rotated in image instead
         background-image: url("../images/badge-soon-released.png");
+      }
+      &.badge-soon .banner::after {
+        content: "SOON!"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-soon.png");
       }
       &.badge-new .banner::after {
         content: "NEW!"; // for accessibility only; shown rotated in image instead
         background-image: url("../images/badge-new.png");
+      }
+      &.badge-more .banner::after {
+        content: "MORE!"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-more.png");
       }
     }
 

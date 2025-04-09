@@ -16,13 +16,13 @@ let badges = {
       const now = new Date();
       console.log(now, releaseDate, lastAddedDate);
       if (releaseDate && now < releaseDate) {
-        g.classList.add("badge-soon");
+        g.classList.add("badge", "badge-soon");
       } else if (lastAddedDate && now < lastAddedDate) {
-        g.classList.add("badge-soon-released");
+        g.classList.add("badge", "badge-soon-released");
       } else if (releaseDate && now < releaseDate.addDays(newBadgeDays)) {
-        g.classList.add("badge-new");
+        g.classList.add("badge", "badge-new");
       } else if (lastAddedDate && now < lastAddedDate.addDays(moreBadgeDays)) {
-        g.classList.add("badge-more");
+        g.classList.add("badge", "badge-more");
       }
       console.log(g.classList);
     });
