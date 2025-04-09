@@ -7,6 +7,11 @@ $bg-color: #42008d;
 $font-color: #ffffff;
 $link-color: #ffc500;
 $footer-color: #212223;
+$transparent: rgba(0, 0, 0, 0);
+
+$banner-border-default-color: #ffffff;
+$banner-border-radius: 12px;
+$banner-border-weight: 8px;
 
 $tablet: 720px;
 
@@ -188,10 +193,11 @@ body {
     .game {
       display: inline-block;
       line-height: 1.5em;
+
       img {
         display: block;
-        border: solid 8px white;
-        border-radius: 12px;
+        border: solid $banner-border-weight $banner-boder-default-color;
+        border-radius: $banner-border-radius;
         box-sizing: border-box;
         margin-bottom: 0.5em;
       }
@@ -214,6 +220,7 @@ body {
           box-shadow: 0 0.5em rgba(0, 0, 0, 0.25);
         }
       }
+
       .count {
         float: right;
         font-family: "Poppins", "Helvetica", sans-serif;
@@ -231,6 +238,23 @@ body {
       .author {
         color: rgba(255, 255, 255, 0.6);
         line-height: 1em;
+      }
+
+      &.badge-soon-released:after {
+        content: "SOON!"; // for accessibility only; shown rotated in image instead
+        color: $transparent;
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 90px;
+        height: 90px;
+        background-image: url("../images/badge-soon-released.png");
+        background-size: cover;
+        background-position: top right;
+        border-top-right-radius: calc(
+          $banner-border-radius + $banner-border-weight
+        );
       }
     }
 
