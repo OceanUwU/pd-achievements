@@ -61,3 +61,11 @@
   color: "#F8C300"
   achievementCount: 13
   description:
+
+- title: Vexbox
+  author: ocean & Vex
+  url: https://play.date/games/vexbox/
+  image: ./assets/images/games/vexbox.png
+  color: "#4F7766"
+  achievementCount: 30
+  description:
