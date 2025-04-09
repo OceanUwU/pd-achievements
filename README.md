@@ -68,7 +68,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 {% endfor %}
 
-<p class="footnote">* These games are already available to play now and will support Playdate Achievements in a future update.</p>
+<p class="footnote">* These games are available to play now and will support Playdate Achievements in a future update.</p>
 
 </div> <!-- game grid -->
 
