@@ -1,4 +1,4 @@
-# - name: Your Game
+# - title: Your Game
 #   author: Your name or alias
 #   url: https://yourgame.com # The download page for your game on itch.io, catalog, or elsewhere
 #   image: ./assets/images/games/your-game.png
@@ -6,66 +6,58 @@
 #   achievementCount: 0 # The number of Playdate Achievements in your game
 #   description: A brief, one sentence description of your game. (Not currently shown, but may be in the future)
 
-- name: Bona Fido
+- title: Bona Fido
+  author: Rae
   url: https://play.date/games/bona-fido/
   image: ./assets/images/games/bona-fido.png
   color: "#FFE7DE"
-  description:
-  author: Rae
   achievementCount: 9
+  description:
 
-- name: RowBot Rally
+- title: RowBot Rally
+  author: Rae
   url: https://play.date/games/rowbot-rally/
   image: ./assets/images/games/rowbot-rally.png
   color: "#5DC3E5"
-  description:
-  author: Rae
   achievementCount: 16
+  description:
 
-- name: Cranky Cove
+- title: Cranky Cove
+  author: Jon Simantov
   url: https://play.date/games/cranky-cove/
   image: ./assets/images/games/cranky-cove.png
   color: "#6BC2E4"
-  description:
-  author: Jon Simantov
   achievementCount: 30
+  description:
 
-- name: First in… Line?
+- title: First in… Line?
+  author: Rae
   url: https://play.date/games/first-in-line/
   image: ./assets/images/games/first-in-line.png
   color: "#FF005C"
-  description:
-  author: Rae
   achievementCount: 10
+  description:
 
-- name: HEXA
+- title: HEXA
+  author: Rae
   url: https://play.date/games/hexa/
   image: ./assets/images/games/hexa.png
   color: "#8977FF"
-  description:
-  author: Rae
   achievementCount: 17
-
-- name: XTRIS
-  url: https://play.date/games/xtris/
-  image: ./assets/images/games/xtris.png
-  color: "#008751"
   description:
-  author: Fletch Makes Stuff
-  achievementCount: 20
 
-- name: Lunatrix
+- title: Lunatrix
+  author: Rae
   url: https://play.date/games/lunatrix/
   image: ./assets/images/games/mission-lunatrix.png
   color: "#B189C0"
-  description:
-  author: Rae
   achievementCount: 21
+  description:
 
-- name: Traffic Jam
+- title: Traffic Jam
+  author: Rae
   url: https://play.date/games/traffic-jam/
   image: ./assets/images/games/traffic-jam.png
   color: "#F8C300"
-  description:
-  author: Rae
   achievementCount: 13
+  description:

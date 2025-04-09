@@ -54,14 +54,14 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 <div class="game-grid grid">
 
-{% assign sortedGames = site.data.games | sort: 'name' %}
+{% assign sortedGames = site.data.games | sort: 'title' %}
 {% for game in sortedGames %}
 
 <div class="game">
 	<a href="{{ game.url }}">
-		<img src="{{ game.image }}" alt="{{ game.name }}" title="{{ game.name }}" style="border-color: {{ game.color }}"/>
+		<img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/>
 		<div class='count'>{{ game.achievementCount }}</div>
-		<div class='title'>{{ game.name }}</div>
+		<div class='title'>{{ game.title }}</div>
 		<div class='author'>By {{ game.author }}</div>
     </a>
 </div>
