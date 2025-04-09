@@ -196,6 +196,7 @@ body {
 
       img {
         display: block;
+        position: relative;
         border: solid $banner-border-weight $banner-border-default-color;
         border-radius: $banner-border-radius;
         box-sizing: border-box;
@@ -240,7 +241,7 @@ body {
         line-height: 1em;
       }
 
-      &.badge-soon-released:after {
+      &.badge-soon-released img:after {
         content: "SOON!"; // for accessibility only; shown rotated in image instead
         color: $transparent;
         display: block;
