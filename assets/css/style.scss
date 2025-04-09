@@ -124,7 +124,7 @@ body {
         background-size: cover;
         background-position: left center;
       }
-      &:after {
+      &::after {
         content: "";
         display: block;
         position: absolute;
@@ -139,7 +139,7 @@ body {
 
       @media screen and (max-width: $tablet) {
         margin: 1em 24px 3em 24px;
-        &:after {
+        &::after {
           width: 24px;
           right: -28px;
         }
@@ -241,7 +241,7 @@ body {
         line-height: 1em;
       }
 
-      &.badge-soon-released img:after {
+      &.badge-soon-released img::after {
         content: "SOON!"; // for accessibility only; shown rotated in image instead
         color: $transparent;
         display: block;
