@@ -241,6 +241,9 @@ body {
         line-height: 1em;
       }
 
+      &.badge-soon-released .banner {
+        position: relative;
+      }
       &.badge-soon-released .banner::after {
         content: "SOON!"; // for accessibility only; shown rotated in image instead
         color: $transparent;
@@ -253,9 +256,7 @@ body {
         background-image: url("../images/badge-soon-released.png");
         background-size: cover;
         background-position: top right;
-        border-top-right-radius: calc(
-          $banner-border-radius + $banner-border-weight
-        );
+        border-top-right-radius: $banner-border-radius;
       }
     }
 
