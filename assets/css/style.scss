@@ -251,8 +251,8 @@ body {
         position: absolute;
         top: -1px;
         right: -1px;
-        width: 90px;
-        height: 90px;
+        height: 80%;
+        aspect-ratio: 1;
         background-size: cover;
         background-position: top right;
         border-top-right-radius: $banner-border-radius;
