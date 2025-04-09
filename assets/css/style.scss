@@ -90,6 +90,9 @@ body {
 
     img {
       max-width: 45vmin;
+      @media screen and (max-width: $tablet) {
+        max-width: 60vmin;
+      }
     }
 
     // open standard banner
@@ -225,7 +228,7 @@ body {
       }
       .author {
         color: rgba(255, 255, 255, 0.6);
-        line-height: 0.9em;
+        line-height: 1em;
       }
     }
 
