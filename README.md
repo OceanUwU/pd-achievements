@@ -59,7 +59,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 <div class="game" data-release-date="{{ game.releaseDate }}" data-last-added-date="{{ game.lastAddedDate }}">
 	<a href="{{ game.url }}">
-		<span class="banner"><img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/></span>
+		<div class="banner"><img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/></div>
 		<div class='count'>{{ game.achievementCount }}</div>
 		<div class='title'>{{ game.title }}</div>
 		<div class='author'>By {{ game.author }}</div>
