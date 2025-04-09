@@ -247,6 +247,7 @@ body {
       }
       &.badge .banner::after {
         color: $transparent;
+        font-size: 0.1em; // don't let the invisible text force the container size to grow
         display: block;
         position: absolute;
         top: -1px;
