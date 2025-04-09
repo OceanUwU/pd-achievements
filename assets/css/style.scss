@@ -242,7 +242,8 @@ body {
         line-height: 1em;
       }
 
-      &.badge-soon-released .banner {
+      &.badge-soon-released .banner,
+      &.badge-new .banner {
         position: relative;
       }
       &.badge-soon-released .banner::after,
