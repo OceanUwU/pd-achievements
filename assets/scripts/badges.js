@@ -9,7 +9,7 @@ Date.prototype.addDays = function (days) {
 const newBadgeDays = 30; // Number of days to show the new badge after release date
 const moreBadgeDays = 30; // Number of days to show the more badge after last update which added achievements
 
-export let badges = {
+let badges = {
   add: function () {
     const games = document.querySelectorAll(".game");
     games.forEach((g) => {

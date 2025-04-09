@@ -64,7 +64,7 @@
   achievementCount: 13
   description:
 
-- name: XTRIS
+- title: XTRIS
   author: Fletch Makes Stuff
   url: https://play.date/games/xtris/
   image: ./assets/images/games/xtris.png
