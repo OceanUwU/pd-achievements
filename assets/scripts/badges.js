@@ -16,7 +16,7 @@ let badges = {
       const releaseDate = new Date(g.dataset.releaseDate);
       const lastAddedDate = new Date(g.dataset.lastAddedDate);
       const now = new Date();
-      console.print(now, releaseDate, lastAddedDate);
+      console.log(now, releaseDate, lastAddedDate);
       if (releastDate && now < releaseDate) {
         g.classList.add("badge-soon");
       } else if (lastAddedDate && now < lastAddedDate) {
@@ -26,7 +26,7 @@ let badges = {
       } else if (lastAddedDate && now < lastAddedDate.addDays(moreBadgeDays)) {
         g.classList.add("badge-more");
       }
-      console.print(g.classList);
+      console.log(g.classList);
     });
   },
 };
