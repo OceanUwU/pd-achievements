@@ -4,6 +4,8 @@
 #   image: ./assets/images/games/your-game.png
 #   color: A valid CSS color string, e.g. '#123456' to use as a highlight
 #   achievementCount: 0 # The number of Playdate Achievements in your game
+#   releaseDate: The game release date in MM/DD/YYYY format. A future date may be provided for unreleased games.
+#   lastAddedDate: The last time more achievements were added, in MM/DD/YYYY format. A future date may be provided for released games that haven't yet added achievements.
 #   description: A brief, one sentence description of your game. (Not currently shown, but may be in the future)
 
 - title: Bona Fido
@@ -60,4 +62,14 @@
   image: ./assets/images/games/traffic-jam.png
   color: "#F8C300"
   achievementCount: 13
+  description:
+
+- name: XTRIS
+  author: Fletch Makes Stuff
+  url: https://play.date/games/xtris/
+  image: ./assets/images/games/xtris.png
+  color: "#008751"
+  achievementCount: 20
+  releaseDate: 02/25/2025
+  lastAddedDate: 12/31/2025
   description:

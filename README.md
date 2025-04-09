@@ -57,7 +57,7 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 {% assign sortedGames = site.data.games | sort: 'title' %}
 {% for game in sortedGames %}
 
-<div class="game">
+<div class="game" data-release-date="{{ game.releaseDate }}" data-last-added-date="{{ game.lastAddedDate }}">
 	<a href="{{ game.url }}">
 		<img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/>
 		<div class='count'>{{ game.achievementCount }}</div>
