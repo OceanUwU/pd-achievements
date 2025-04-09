@@ -68,6 +68,8 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 
 {% endfor %}
 
+<p class="footnote">* These games are already available to play, and will support Playdate Achievements in a future update.</p>
+
 </div> <!-- game grid -->
 
 ### Made a Game for Playdate?

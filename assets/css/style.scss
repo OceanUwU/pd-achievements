@@ -5,6 +5,7 @@
 
 $bg-color: #42008d;
 $font-color: #ffffff;
+$dimmed-font-color: rgba(255, 255, 255, 0.6);
 $link-color: #ffc500;
 $footer-color: #212223;
 $transparent: rgba(0, 0, 0, 0);
@@ -228,7 +229,7 @@ body {
         font-weight: 800;
         font-size: 2.5em;
         line-height: 1.25em;
-        color: rgba(255, 255, 255, 0.6);
+        color: $dimmed-font-color;
       }
       .title {
         color: $font-color;
@@ -237,7 +238,7 @@ body {
         line-height: 1.25em;
       }
       .author {
-        color: rgba(255, 255, 255, 0.6);
+        color: $dimmed-font-color;
         line-height: 1em;
       }
 
@@ -294,6 +295,11 @@ body {
     font-size: 28px;
     line-height: 1.4;
     color: white;
+  }
+
+  .footnote {
+    font-size: 0.75em;
+    color: $dimmed-font-color;
   }
 
   .footer {
