@@ -235,9 +235,12 @@ body {
           display: inline-block;
           background-image: url("../images/trophy-count-icon.png");
           background-position: bottom right;
-          background-size: 42px 36px;
-          width: 42px;
-          height: 36px;
+          // background-size: 42px 36px;
+          // width: 42px;
+          // height: 36px;
+          background-size: 28px 24px;
+          width: 28px;
+          height: 24px;
           margin: 0 0.1em;
         }
       }
