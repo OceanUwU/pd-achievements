@@ -230,7 +230,7 @@ body {
         font-size: 2.5em;
         line-height: 1.25em;
         color: $dimmed-font-color;
-        &:after {
+        &:before {
           content: "";
           display: inline-block;
           background-image: url("../images/trophy-count-icon.png");
@@ -238,7 +238,7 @@ body {
           background-size: 42px 36px;
           width: 42px;
           height: 36px;
-          margin-right: 0.1em;
+          margin: 0 0.1em;
         }
       }
       .title {
