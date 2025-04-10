@@ -232,9 +232,13 @@ body {
         color: $dimmed-font-color;
         &:before {
           content: "";
+          display: inline-block;
           background-image: url("../images/trophy-count-icon.png");
           background-position: bottom right;
-          background-size: 50%;
+          background-size: 42px 36px;
+          width: 42px;
+          height: 36px;
+          margin-right: 0.1em;
         }
       }
       .title {
