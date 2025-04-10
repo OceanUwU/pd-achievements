@@ -5,8 +5,14 @@
 
 $bg-color: #42008d;
 $font-color: #ffffff;
+$dimmed-font-color: rgba(255, 255, 255, 0.6);
 $link-color: #ffc500;
 $footer-color: #212223;
+$transparent: rgba(0, 0, 0, 0);
+
+$banner-border-default-color: #ffffff;
+$banner-border-radius: 12px;
+$banner-border-weight: 8px;
 
 $tablet: 720px;
 
@@ -119,7 +125,7 @@ body {
         background-size: cover;
         background-position: left center;
       }
-      &:after {
+      &::after {
         content: "";
         display: block;
         position: absolute;
@@ -134,7 +140,7 @@ body {
 
       @media screen and (max-width: $tablet) {
         margin: 1em 24px 3em 24px;
-        &:after {
+        &::after {
           width: 24px;
           right: -28px;
         }
@@ -188,10 +194,12 @@ body {
     .game {
       display: inline-block;
       line-height: 1.5em;
+
       img {
         display: block;
-        border: solid 8px white;
-        border-radius: 12px;
+        position: relative;
+        border: solid $banner-border-weight $banner-border-default-color;
+        border-radius: $banner-border-radius;
         box-sizing: border-box;
         margin-bottom: 0.5em;
       }
@@ -214,23 +222,74 @@ body {
           box-shadow: 0 0.5em rgba(0, 0, 0, 0.25);
         }
       }
+
       .count {
         float: right;
         font-family: "Poppins", "Helvetica", sans-serif;
         font-weight: 800;
         font-size: 2.5em;
         line-height: 1.25em;
-        color: rgba(255, 255, 255, 0.6);
+        color: $dimmed-font-color;
+        &:before {
+          content: "";
+          display: inline-block;
+          background-image: url("../images/trophy-count-icon.png");
+          background-position: bottom right;
+          // background-size: 42px 36px;
+          // width: 42px;
+          // height: 36px;
+          background-size: 28px 24px;
+          width: 28px;
+          height: 24px;
+          margin: 0 0.1em;
+        }
       }
       .title {
         color: $font-color;
         font-weight: bold;
         font-size: 1.5em;
         line-height: 1.25em;
+        text-overflow: ellipsis;
+        line-clamp: 1;
       }
       .author {
-        color: rgba(255, 255, 255, 0.6);
+        color: $dimmed-font-color;
         line-height: 1em;
+        text-overflow: ellipsis;
+        line-clamp: 1;
+      }
+
+      &.badge .banner {
+        position: relative;
+      }
+      &.badge .banner::after {
+        color: $transparent;
+        font-size: 0.1em; // don't let the invisible text force the container size to grow
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        height: 80%;
+        aspect-ratio: 1;
+        background-size: cover;
+        background-position: top right;
+        border-top-right-radius: $banner-border-radius;
+      }
+      &.badge-soon-released .banner::after {
+        content: "SOON*"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-soon-released.png");
+      }
+      &.badge-soon .banner::after {
+        content: "SOON!"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-soon.png");
+      }
+      &.badge-new .banner::after {
+        content: "NEW!"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-new.png");
+      }
+      &.badge-more .banner::after {
+        content: "MORE!"; // for accessibility only; shown rotated in image instead
+        background-image: url("../images/badge-more.png");
       }
     }
 
@@ -248,12 +307,20 @@ body {
   }
 
   .section#faq {
-    padding: 3em 1em;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left: 0;
-    background-color: $footer-color;
+    // padding: 3em 1em;
+    position: relative;
+    // width: 100%;
+    // height: auto;
+    // left: 0;
+    // background-color: $footer-color;
+    &::before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -5000;
+      right: -5000;
+      background-color: $footer-color;
+    }
   }
 
   .markdown-body {
@@ -261,6 +328,12 @@ body {
     font-size: 28px;
     line-height: 1.4;
     color: white;
+  }
+
+  .footnote {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    color: $dimmed-font-color;
   }
 
   .footer {

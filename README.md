@@ -57,16 +57,18 @@ It’s all about the games. Here’s a (non-comprehensive) list of games that aw
 {% assign sortedGames = site.data.games | sort: 'title' %}
 {% for game in sortedGames %}
 
-<div class="game">
+<div class="game" data-release-date="{{ game.releaseDate }}" data-last-added-date="{{ game.lastAddedDate }}">
 	<a href="{{ game.url }}">
-		<img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/>
-		<div class='count'>{{ game.achievementCount }}</div>
+		<div class="banner"><img src="{{ game.image }}" alt="{{ game.title }}" title="{{ game.title }}" style="border-color: {{ game.color }}"/></div>
+		{% if game.achievementCount %}<div class='count'>{{ game.achievementCount }}</div>{% endif %}
 		<div class='title'>{{ game.title }}</div>
 		<div class='author'>By {{ game.author }}</div>
     </a>
 </div>
 
 {% endfor %}
+
+<p class="footnote">* These games are available to play now and will support Playdate Achievements in a future update.</p>
 
 </div> <!-- game grid -->
 
