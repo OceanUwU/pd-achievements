@@ -307,12 +307,20 @@ body {
   }
 
   .section#faq {
-    padding: 3em 1em;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left: 0;
-    background-color: $footer-color;
+    // padding: 3em 1em;
+    position: relative;
+    // width: 100%;
+    // height: auto;
+    // left: 0;
+    // background-color: $footer-color;
+    &::before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -5000;
+      right: -5000;
+      background-color: $footer-color;
+    }
   }
 
   .markdown-body {
